@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rotating dice & Rubik's cubes</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- Focus white light on the middle of the webpage. -->
+	<div id="light"></div>
+	<!-- Three small dices in the upper right corner -->
+	<div id="btn">
+		<label for="btnDice">
+			<div class="smDice">
+				<div class="box-page top"></div>
+				<div class="box-page bottom"></div>
+				<div class="box-page left"></div>
+				<div class="box-page right"></div>
+				<div class="box-page before"></div>
+				<div class="box-page after"></div>
+			</div>
+		</label>
+		<input type="button" value="dice" id="btnDice">
+		<label for="btnCube1">
+			<div class="smCube1">
+				<div class="box-page top"></div>
+				<div class="box-page bottom"></div>
+				<div class="box-page left"></div>
+				<div class="box-page right"></div>
+				<div class="box-page before"></div>
+				<div class="box-page after"></div>
+			</div>
+		</label>
+		<input type="button" value="cube1" id="btnCube1">
+		<label for="btnCube2">
+			<div class="smCube2">
+				<div class="box-page top"></div>
+				<div class="box-page bottom"></div>
+				<div class="box-page left"></div>
+				<div class="box-page right"></div>
+				<div class="box-page before"></div>
+				<div class="box-page after"></div>
+			</div>
+		</label>
+		<input type="button" value="cube2" id="btnCube2">
+	</div>
+	<div id="container">
+		<!-- Big rotating dice -->
+		<div id="dice">
+			<div class="top box-page"><img src="images/0.jpg" alt="" /></div>
+			<div class="bottom box-page"><img src="images/1.jpg" alt="" /></div>
+			<div class="left box-page"><img src="images/2.jpg" alt="" /></div>
+			<div class="right box-page"><img src="images/3.jpg" alt="" /></div>
+			<div class="before box-page"><img src="images/4.jpg" alt="" /></div>
+			<div class="after box-page"><img src="images/5.jpg" alt="" /></div>
+		</div>
+		<!-- The first rotating Rubik's cube. -->
+		<div id="cube1">
+			<div class="box-page top"></div>
+			<div class="box-page bottom"></div>
+			<div class="box-page left"></div>
+			<div class="box-page right"></div>
+			<div class="box-page before"></div>
+			<div class="box-page after"></div>
+		</div>
+		<!-- The second rotating Rubik's cube -->
+		<div id="cube2">
+			<div class="box-page top"></div>
+			<div class="box-page bottom"></div>
+			<div class="box-page left"></div>
+			<div class="box-page right"></div>
+			<div class="box-page before"></div>
+			<div class="box-page after"></div>
+		</div>
+	</div>
+	<script src="js/index.js"></script>
+</body>
+</html>
